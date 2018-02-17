@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NodeSchool Abuja</title>
+    <meta name="twitter:card" content="NodeSchool.io for Abuja NodeJS Developers">
+    <meta name="twitter:site" content="@nodeschoolabuja">
+    <meta name="twitter:creator" content="@inidaname">
+    <meta name="twitter:url" content="https://nodeschool.io/abuja">
+    <meta name="twitter:title" content="NodeSchool.io by NodeJS Abuja">
+    <meta name="twitter:description" content="NodeSchool.io by NodeJS Abuja">
+    <meta name="twitter:image" content="https://nodejs.org/static/images/logo.svg">
+    <meta name="theme-color" content="#00000">
+
+    <!-- Add to homescreen -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
+
+
+    <!-- For IE 11, Chrome, Firefox, Safari, Opera -->
+    <link rel="icon" href="https://nodeschool.io/favicon.ico" sizes="16x16" type="image/ico">
+    <link rel="icon" href="https://nodeschool.io/favicon.ico" sizes="32x32" type="image/ico">
+    <link rel="icon" href="https://nodeschool.io/favicon.ico" sizes="48x48" type="image/ico">
+    <link rel="icon" href="https://nodeschool.io/favicon.ico" sizes="62x62" type="image/ico">
+    <link rel="icon" href="https://nodeschool.io/favicon.ico" sizes="192x192" type="image/ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://inidaname.github.io/abuja/styles/styles.css">
+    <link rel="shortcut icon" href="https://nodeschool.io/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- standalone (20.3kb) -->
+    <script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
+    <script src="https://inidaname.github.io/abuja/javascripts/index.js" charset="utf-8"></script>
+  </head>
+
+  <body class="d-flex justify-content-center align-items-center flex-column">
+      <header class="d-flex justify-content-center align-items-center flex-column">
+        <div class="d-flex align-self-start w-100 justify-content-center h-100 flex-row p-2">
+          <div id="home" class="">
+            <div class="d-flex justify-content-between h-100 w-100 align-items-center flex-column">
+              <h3 class="text-light text-center mt-5 small-caps">NodeSchool Abuja, Nigeria</h3>
+              <div class="hexagon"></div>
+              <p class="text-center text-dark">
+                NodeSchool.io is an open source community for NodeDevelopers, we organize workshops and meetup to teach Node with our wonderful codementors always willing and ready to get you prepared for the NeXt Generation Web-Development. NodeSchool is compeletly and always open to suggestions!.
+              </p>
+            </div>
+          </div>
+          <div id="mentee" class="w-100" style="display: none;">
+            <div class="d-flex justify-content-center w-100 h-100 align-items-center align-self-start flex-column">
+              <h4 class="align-self-start text-center w-100 small-caps text-light mt-3 mb-3">Team Organizers and Mentors</h4>
+              <div class="d-flex flex-row flex-wrap  align-items-center mt-5 justify-content-around w-100">
+                <div class="d-flex text-center flex-column align-items-center" id="inidaname">
+                  <img src="https://inidaname.github.io/abuja/images/hexagon.png" width="150px" class="rounded-circle" alt="">
+
+                </div>
+                <div class="d-flex text-center flex-column align-items-center" id="ldbraun">
+                  <img src="https://inidaname.github.io/abuja/images/hexagon.png" width="150px" class="rounded-circle" alt="">
+                </div>
+                <div class="d-flex text-center flex-column align-items-center" id="devamaz">
+                  <img src="https://inidaname.github.io/abuja/images/hexagon.png" width="150px" class="rounded-circle" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="events" style="display: none;" id="events">
+            <h3 class="small-caps text-light text-center">Up-Coming Events Listed Below</h3>
+          </div>
+        </div>
+        <div class="below d-flex flex-column w-100 justify-content-center bg-success">
+          <div class="theMenu w-100 d-flex justify-content-around align-self-end align-items-center">
+            <span id="homeBT">Home</span>
+            <span id="menteeBT">Mentors</span>
+            <span id="eventBT">Events</span>
+          </div>
+        </div>
+      </header>
+  </body>
+</html>
