@@ -25,7 +25,17 @@ devamaz
   console.log(members);
   $('#devamaz img').attr('src', members.avatar_url);
   $('#devamaz').append('<small class="mt-1 text-center">'+members.bio+'</small>')
-  $('#devamaz').append('<p class="text-center">'+members.name+'<br><a href="'+members.html_url+'" target="_blank"><i class="fa fa-github" style="font-size: 15px; color: #000;"></i> '+members.login+'</a>  <a href="https://twitter.com/'+members.login+'" target="_blank"><i class="fa fa-twitter" style="font-size: 15px; color: #000;"></i> '+members.login+'</a></p>')
+  $('#devamaz').append('<p class="text-center">'+members.name+'<br><a href="'+members.html_url+'" target="_blank"><i class="fa fa-github" style="font-size: 15px; color: #000;"></i> '+members.login+'</a>  <a href="https://twitter.com/dev_amaz" target="_blank"><i class="fa fa-twitter" style="font-size: 15px; color: #000;"></i> dev_amaz</a></p>')
+})
+
+const blackdevelopa = gh.getUser('blackdevelopa');
+blackdevelopa
+.getProfile()
+.then(({data: members}) => {
+  console.log(members);
+  $('#blackdevelopa img').attr('src', members.avatar_url);
+  $('#blackdevelopa').append('<small class="mt-1 text-center">'+members.bio+'</small>')
+  $('#blackdevelopa').append('<p class="text-center">'+members.name+'<br><a href="'+members.html_url+'" target="_blank"><i class="fa fa-github" style="font-size: 15px; color: #000;"></i> '+members.login+'</a>  <a href="https://twitter.com/'+members.login+'" target="_blank"><i class="fa fa-twitter" style="font-size: 15px; color: #000;"></i> '+members.login+'</a></p>')
 })
 
 const ldbraun = gh.getUser('ldbraun');
